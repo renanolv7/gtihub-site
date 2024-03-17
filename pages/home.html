@@ -49,7 +49,7 @@
                             </div>
                         </div>
 
-                        <a href="/pages/home.html" class="legend">
+                        <a href="/pages/home.html" class="legend" onmousedown="addBackground">
                             <h3 class="title home-title">Inicio</h3>
                         </a>
                     </li>
@@ -130,9 +130,14 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="container-dark-mode">
+                <button class="btn-dark-mode" onclick="toggleDarkMode()">DARK MODE</button>
+            </div>
+
         </aside>
 
-        <main class="container-main">
+        <main class="container-main" id="main-content">
             <div class="container-title-main">
                 <div class="container-boxes">
                     <div class="box1">
@@ -144,9 +149,12 @@
                 </div>
                 <div class="divider"></div>
             </div>
+
+
         </main>
     </div>
 
+    <script src="/js/home.js"></script>
 </body>
 
 </html>
