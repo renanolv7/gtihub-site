@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   color: var(--color-white-logo);
+  transition: background-color 0.7s ease;
 }
 .nav .main-menu .list .legend {
   width: -moz-max-content;

@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   color: var(--color-white-logo);
+  transition: background-color 0.7s ease;
 }
 .nav .main-menu .list .legend {
   width: -moz-max-content;
@@ -120,12 +121,28 @@
   height: 100%;
   background-color: var(--bg-color-main);
   border-radius: 25px 0 0 25px;
+}
+.container-main .infos-top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-main .infos-top .name {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.container-main .container-materials {
+  width: 100%;
+  height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  flex-direction: column;
 }
-.container-main .container-contents {
-  width: 60%;
-  height: 600px;
+.container-main .container-materials .contents-materials {
+  height: 100%;
+  width: 80%;
 }/*# sourceMappingURL=material.css.map */

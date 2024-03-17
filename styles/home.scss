@@ -13,13 +13,21 @@
     --bg-color-main: #ECF4FE;
 
     // Gradiente color line title
-
 }
 
 
 * {
     box-sizing: border-box;
     font-family: "Lato", Verdana, sans-serif;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #fff;
 }
 
 
@@ -84,6 +92,8 @@
 
         display: flex;
 
+
+
         .list {
 
             width: fit-content;
@@ -97,6 +107,8 @@
                 display: flex;
                 align-items: center;
                 color: var(--color-white-logo);
+                transition: background-color 0.7s ease;
+
             }
 
             .legend {
@@ -142,18 +154,41 @@
 
     }
 
-    .credits {
+    .container-dark-mode {
+        width: 200px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
         position: absolute;
         bottom: 0;
+        margin: 20px 0;
 
-        .title-credits {
-            font-size: 14px;
-            margin: 10px 5px;
-            color: white;
-            opacity: 0.9;
+        .btn-dark-mode {
+            width: fit-content;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: var(--color-bgboxicons);
+            color: var(--bg-color-main);
+            font-weight: 400;
         }
 
     }
+
+
+    // .credits {
+    //     position: absolute;
+    //     bottom: 0;
+
+    //     .title-credits {
+    //         font-size: 14px;
+    //         margin: 10px 5px;
+    //         color: white;
+    //         opacity: 0.9;
+    //     }
+
+    // }
 
 }
 
@@ -163,8 +198,8 @@
     background-color: var(--bg-color-main);
     border-radius: 25px 0 0 25px;
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    flex-direction: column;
+
 
     .divider {
         width: 10px;
@@ -178,7 +213,7 @@
         height: fit-content;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
 
         .container-boxes {
             height: fit-content;
@@ -186,7 +221,7 @@
             .box1 {
                 .title-main {
                     text-transform: uppercase;
-                    font-size: 72px;
+                    font-size: 82px;
                 }
             }
 
@@ -196,7 +231,7 @@
 
                 .subtitle-main {
                     font-weight: 300;
-                    font-size: 68px;
+                    font-size: 78px;
                 }
 
             }
@@ -204,5 +239,6 @@
         }
 
     }
+
 
 }

@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   color: var(--color-white-logo);
+  transition: background-color 0.7s ease;
 }
 .nav .main-menu .list .legend {
   width: -moz-max-content;
@@ -125,17 +126,17 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .container-main .container-contents .tools-list {
   margin: 50px 30px;
   height: 70vh;
   display: flex;
-  border-radius: 25px;
-  background-color: var(--color-bgboxicons);
-  box-shadow: 24px 24px 17px #7b7c7e, -24px -24px 17px #d3d4d7;
+  border-radius: 15px;
+  background: #f5f5f5;
+  box-shadow: 20px 20px 60px #d0d0d0, -20px -20px 60px #ffffff;
   gap: 20px;
-  color: var(--bg-color-main);
+  color: var(--color-bgboxicons);
   border: 1px solid rgb(255, 255, 255);
   padding: 10px;
   text-transform: uppercase;
@@ -166,7 +167,7 @@
   gap: 30px;
 }
 .container-main .container-contents .tools-list .link a {
-  color: var(--bg-color-main);
+  color: var(--color-bgboxicons);
   text-decoration: none;
 }
 .container-main .container-contents .tools-list .link a:hover {
