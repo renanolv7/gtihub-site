@@ -22,7 +22,7 @@ body {
 }
 
 .background {
-  background-image: url("/assets/images/background.png");
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -172,4 +172,4 @@ body {
 .container-main .container-title-main .container-boxes .box2 .subtitle-main {
   font-weight: 300;
   font-size: 78px;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=index.css.map */
