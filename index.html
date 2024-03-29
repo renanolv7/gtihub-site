@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="../page-gti/styles/reset.css">
+
+    <!-- GOOGLE FONTS - LATO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- MATERIAL ICONS -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- OWN CSS -->
+    <link rel="stylesheet" href="../page-gti/styles/index.css">
+
+    <title>GTI HUB | Home</title>
+
+</head>
+
+<body class="background">
+    <div class="container">
+        <aside class="nav">
+            <header>
+                <div class="container-logo">
+                    <a class="link-logo" href="../page-gti/index.html">
+                        <p class="logo">
+                            <span class="letter-gt">GT</span><span class="letter-i">I</span>HUB/>
+                        </p>
+                    </a>
+                </div>
+            </header>
+
+            <nav class="main-menu">
+                <ul class="list">
+                    <!-- Home -->
+                    <li class="list-item home">
+                        <div class="box">
+                            <div class="icon-home">
+                                <span class="material-symbols-outlined">
+                                    home
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="../page-gti/index.html" class="legend" onmousedown="addBackground">
+                            <h3 class="title home-title">Inicio</h3>
+                        </a>
+                    </li>
+
+                    <!-- Disciplina -->
+                    <li class="list-item discipline">
+                        <div class="box">
+                            <div class="icon-discipline">
+                                <span class="material-symbols-outlined">
+                                    developer_guide
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="../page-gti/pages/discipline.html" class="legend">
+                            <h3 class="title home-title">Disciplina</h3>
+                        </a>
+                    </li>
+
+                    <!-- Materiais -->
+                    <li class="list-item materials">
+                        <div class="box">
+                            <div class="icon-materials">
+                                <span class="material-symbols-outlined">
+                                    library_books
+                                </span>
+
+                            </div>
+                        </div>
+                        <a href="../page-gti/pages/material.html" class="legend">
+                            <h3 class="title home-title">Materiais</h3>
+                        </a>
+                    </li>
+
+                    <!-- Ferramentas  -->
+                    <li class="list-item tools">
+                        <div class="box">
+                            <div class="icon-tools">
+                                <span class="material-symbols-outlined">
+                                    handyman
+                                </span>
+
+                            </div>
+                        </div>
+                        <a href="../page-gti/pages/tools.html" class="legend">
+                            <h3 class="title home-title">Ferramentas</h3>
+                        </a>
+                    </li>
+
+                    <!-- Contato -->
+                    <li class="list-item contact">
+                        <div class="box">
+                            <div class="icon-contact">
+                                <span class="material-symbols-outlined">
+                                    call
+                                </span>
+
+                            </div>
+                        </div>
+                        <a href="../page-gti/pages/contact.html" class="legend">
+                            <h3 class="title home-title">Contato</h3>
+                        </a>
+                    </li>
+
+                    <!-- Mais infos -->
+                    <li class="list-item more-infos">
+                        <div class="box">
+                            <div class="icon-more-infos">
+                                <span class="material-symbols-outlined">
+                                    add
+                                </span>
+
+                            </div>
+                        </div>
+                        <a href="../page-gti/pages/more_infos.html" class="legend">
+                            <h3 class="title home-title">Mais infos</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="container-dark-mode">
+                <button class="btn-dark-mode" onclick="toggleDarkMode()">DARK MODE</button>
+            </div>
+
+        </aside>
+
+        <main class="container-main" id="main-content">
+            <div class="container-title-main">
+                <div class="container-boxes">
+                    <div class="box1">
+                        <h1 class="title-main">seja bem-vindo</h1>
+                    </div>
+                    <div class="box2">
+                        <h1 class="subtitle-main">GTI HUB</h1>
+                    </div>
+                </div>
+                <div class="divider"></div>
+            </div>
+
+
+        </main>
+    </div>
+
+    <script src="/js/home.js"></script>
+</body>
+
+</html>
